@@ -37,3 +37,41 @@ let BooleanIsLoggedIn1=Boolean(isLoggedIn6);
 let StringIsLoggedIn=String(isLoggedIn1);
 console.log(StringIsLoggedIn);
 console.log(typeof (StringIsLoggedIn));
+
+
+// ****************************     OPERATIONS        ************************************
+
+
+let value =3;
+let negval=-value;
+// console.log(negval);
+
+
+// console.log(2**4)
+
+let str1="hello"
+let str2=" kushal"
+let str3=str1+str2;
+// console.log(str3)
+
+// console.log("1"+2) //STRING + NUMBER KE CASE MEI NUMBER KO BHI STRING BNNA DETA HAI AUR ADD KR DEGA
+
+// console.log("1"+2+3);
+// console.log(2+3+"5");
+
+// console.log(true);
+// console.log(+true);
+let x= +true; // now x is a number
+let y=+"" ; // now y is a number 
+
+// console.log(typeof y);
+
+
+// console.log("02">1);
+
+
+console.log(null>0)
+console.log(null== 0)
+console.log(null>=0)
+
+// ==(type conversion ho jaata hai isme ) vs ===(data type alag hoga toh false hee de degaaa direct )
