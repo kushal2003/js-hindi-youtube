@@ -25,3 +25,4 @@ const min=10;
 const max=20;
 //TO GENERATE RANDOM NO. BETWEEN MIN AND MAX 
 console.log(Math.floor(Math.random()*(max-min+1))+ min) 
+
