@@ -2,6 +2,9 @@ function sayMyName(){
     console.log("Hello")
 }
 
+
+sayMyName()
+
 //execution 
 sayMyName()
 
