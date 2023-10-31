@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code |DOM</title>
+</head>
+
+<body style="background-color: gray;color: white;">
+    <ul class="language">
+        <li>
+            javascript
+        </li>
+    </ul>   
+
+
+</body>
+<script>
+    function addLanguage(langName){
+        const li= document.createElement('li');
+        li.innerHTML=`${langName}`;
+        const vari = document.querySelector('.language');
+        vari.appendChild(li);
+    }
+    addLanguage("python");
+
+
+    function addOptiLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li);
+    }
+    addOptiLang("golang")
+
+
+    // Now we want to edit the value 
+    const secondLang= document.querySelector("li:nth-child(2)")
+    secondLang.innerHTML = "Mojo"
+
+
+    const newLi=document.createElement('li')
+    newLi.textContent="Hemlo"
+    secondLang.replaceWith(newLi)
+    
+
+</script>
+</html>
